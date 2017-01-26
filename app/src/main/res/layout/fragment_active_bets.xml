@@ -1,0 +1,13 @@
+<com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/active_bets_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.bytebuilding.betmanager.tabs.ActiveBetsFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_active_bets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+
+</com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout>

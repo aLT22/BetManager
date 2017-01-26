@@ -1,0 +1,15 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="devider">1dp</dimen>
+
+    <dimen name="fontSize_big">22sp</dimen>
+    <dimen name="fontSize_small">15sp</dimen>
+
+    <dimen name="padding">10dp</dimen>
+
+    <dimen name="cardCornerRadius">4dp</dimen>
+
+    <dimen name="card_elevation">5dp</dimen>
+</resources>

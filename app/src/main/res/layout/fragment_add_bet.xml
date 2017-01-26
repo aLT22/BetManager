@@ -1,0 +1,98 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.bytebuilding.betmanager.tabs.AddBetFragment">
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding"
+            android:text="@string/enter_sport_name"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/fontSize_small" />
+
+        <EditText
+            android:id="@+id/et_sport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView11"
+            android:hint="Прим. Футбол или Теннис"
+            android:inputType="textShortMessage"
+            android:padding="@dimen/padding"
+            android:textSize="@dimen/fontSize_small" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/et_sport"
+            android:padding="@dimen/padding"
+            android:text="@string/enter_betted_moneys"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/fontSize_small" />
+
+        <EditText
+            android:id="@+id/et_betted_moneys"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView15"
+            android:hint="Прим. 50 ли 250"
+            android:inputType="numberDecimal"
+            android:padding="@dimen/padding"
+            android:textSize="@dimen/fontSize_small" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/et_betted_moneys"
+            android:padding="@dimen/padding"
+            android:text="@string/coefficient"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/fontSize_small" />
+
+        <EditText
+            android:id="@+id/et_coefficient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView21"
+            android:hint="Прим. 2.2 или 5.4"
+            android:inputType="numberDecimal"
+            android:padding="@dimen/padding"
+            android:textSize="@dimen/fontSize_small" />
+
+        <Button
+            android:id="@+id/btn_add_bet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/et_coefficient"
+            android:background="@color/colorPrimary"
+            android:elevation="3dp"
+            android:padding="@dimen/padding"
+            android:text="@string/add_bet"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/fontSize_small" />
+
+
+    </RelativeLayout>
+</ScrollView>

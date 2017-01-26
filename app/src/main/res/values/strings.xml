@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Bet Manager</string>
+
+    <string name="card_title">Ставка:</string>
+    <string name="isDone">Прошла?</string>
+    <string name="kind_of_sport">Вид спорта: </string>
+    <string name="moneys_bet">Поставлено денег: </string>
+    <string name="coefficient">Коэффициент: </string>
+    <string name="possible_profit">Возможный выигрыш: </string>
+    <string name="rub"> руб.</string>
+
+    <string name="total_betted_moneys">Всего денег поставлено: </string>
+    <string name="total_won_moneys">Всего выиграно денег: </string>
+    <string name="total_lost_moneys">Всего проиграно денег: </string>
+    <string name="total_profit">Итого: </string>
+
+    <string name="good_luck">Удачных ставок!</string>
+
+    <string name="enter_sport_name">Введите спортивную дисциплину:</string>
+    <string name="enter_betted_moneys">Введите поставленные деньги:</string>
+    <string name="enter_coefficient">Введите коэффициент:</string>
+
+    <string name="add_bet">Добавить ставку!</string>
+
+    <string name="tab_active">Все ставки</string>
+    <string name="tab_inactive">Выигранные ставки</string>
+    <string name="tab_add">Добавить ставку</string>
+    <string name="tab_moneys">Статистика</string>
+
+    <string name="input_error">Введите значения!</string>
+</resources>
